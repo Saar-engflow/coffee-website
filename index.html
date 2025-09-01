@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- mobile navbar -->
+   <header class="navbar-mobile">
+    <nav>
+       <h3>Coffee</h3>
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div class="nav-links" id="nav-links">
+     <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#specials">specials</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+     </nav>
+</header>
+
+<!-- desktop navabar -->
+  <header class = "navbar-desktop">
+    <nav>
+      <h3>Coffee</h3>
+      <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+         <li><a href="#specials">specials</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+    <section id = "home">
+      <div class = "hero-container">
+        <div class = "text-container ">
+       <h1>Coffee</h1> 
+       <p class = "body-text bigger">the best brew in town.</p> 
+       <p>wake up to flavor,stay for the comfort</p>
+        </div>
+      
+      <button
+       onclick=" window.location.href = 'menu.html' "
+      >veiw menu</button>
+      </div>
+     
+      <div class = "bottom-bar"></div>
+    </section>
+
+    <section id = "about">
+      <h2>
+        We've been serving freshly brewed coffee and homemade pastries since 2010
+      </h2>
+      
+    </section>
+
+      <section id = "specials" class ="flex-c-center ">
+
+        <h2 class = "mb">Our specials</h2> 
+        <div class = "specials-container">
+
+          <!-- special 1 -->
+          <div class = "special-card">
+             <div class = "image-container">
+                
+             </div>
+              <h4 class = "mb name">Cappuccino</h4>
+              <p>Rich espresso topped with velvety foam.</p>
+           
+              <span class = "price">$4.50</span>
+              <button>order now</button>
+          </div>
+
+            <!-- special 2 -->
+          <div class = "special-card">
+             <div class = "image-container2">
+                
+             </div>
+              <h4 class = "mb name">Chocolate Tiramisu</h4>
+              <p>Classic Italian dessert with a coffee twist.</p>
+           
+              <span class = "price">$5.00</span>
+              <button>order now</button>
+          </div>
+
+
+            <!-- special 3 -->
+          <div class = "special-card">
+             <div class = "image-container3">
+                
+             </div>
+              <h4 class = "mb name">Latte</h4>
+              <p>Silky steamed milk blended with smooth espresso.</p>
+           
+              <span class = "price">$4.00</span>
+              <button>order now</button>
+          </div>
+
+
+        </div>
+      </section>
+   
+
+  <footer>
+    <header>
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+      
+    </header>
+    <small class="small-text">© 2025 Coffee Inc. All rights reserved.</small>
+  </footer> 
+  <script src = "script.js"></script>
+</body>
+</html>
